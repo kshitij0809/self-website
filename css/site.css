@@ -31,7 +31,7 @@ h1 {
   margin: 20px auto 48px;
 }
 .para-about {
-    font-size: 13px;
+    font-size: 16px;
     padding: 20px;
 }
 .card {
@@ -61,6 +61,28 @@ h1 {
 .container {
     padding: 2px 16px;
 }
+
+
+.work-image {
+    height: 31vh;
+    width: 22vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 body {
@@ -207,7 +229,7 @@ body {
 
 .icon-me {
   text-align: center;
-  font-size: 5em;
+  font-size: 7em;
   color: rgba(200, 100, 100, 0.7);
   padding-top: 20px;
   padding-bottom: 25px;
