@@ -1,1 +1,0 @@
-this is personal website of kshitij pratap singh.

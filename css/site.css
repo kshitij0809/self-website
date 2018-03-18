@@ -43,8 +43,8 @@ h1 {
 }
 .card {
     position: relative;
-    width: 300px;
-    height: 365px;
+    width: 22vw;
+    height: 59vh;
     margin-right: auto;
     margin-bottom: 20px;
     -webkit-perspective: 2000px;
@@ -696,7 +696,9 @@ a:link {
     float: left;
     width: 25%;
     margin-top: -105px;
+
   }
+
   .step-wrap {
     height: 50px;
     width: 50px;
@@ -739,8 +741,8 @@ a:link {
 
 @media(max-width: 899px) {
   #process .container-fluid {
-    width: 50%;
-  }
+    width: 100%;
+}
   .steps-timeline {
     border-left: 5px double black;
     margin-left: 35px;
@@ -808,9 +810,9 @@ a:link {
 }
 
 @media (max-width: 600px) {
-  #process .container-fluid {
-    width: 90%;
-  }
+ #process .container-fluid {
+    width: 100%;
+}
 }
 
 @media (max-width: 400px) {
@@ -842,7 +844,9 @@ a:link {
     text-shadow: 1px 1px black;
     margin-left: -35vw;
 }
-
+.steps-one{
+   margin-bottom: 20vh;
+}
 .tagline1 {
     font-size: 2.2em;}
 
@@ -920,12 +924,12 @@ a:link {
     height: auto;
     overflow-y: hidden;
     /* overflow-y: hidden; */
-        margin-left: -16vw;
+    margin-left: -15vw;
 }
 .card {
     position: relative;
-    width: 300px;
-    height: 376px;
+    width: 92vw;
+    height: 72vh;
     margin-right: auto;
     margin-bottom: 20px;
     -webkit-perspective: 2000px;
@@ -937,16 +941,152 @@ a:link {
 }
 .work-image {
     height: 31vh;
-    width: 85vw;
+    width: 92vw;
     border-top-left-radius: 0.8em;
     border-top-right-radius: 0.8em;
 }
 .work-discription {
-    font-size: 1.5em;
+    font-size: 3em;
+    padding: 42px;
+}
+.work-link {
+    font-size: 3em;
+    color: red;
+}
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .tagline1 {
+    font-family: 'lato', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
+    color: #bbb;
+    text-align: left;
+    padding-top: 359px;
+    text-shadow: 1px 1px black;
+    margin-left: -42vw;
+}
+
+.tagline1 {
+    font-size: 4.2em;
+}
+
+.tagline3a, .tagline3b, .tagline3c {
+    font-size: 3em;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.para-about {
+    font-size: 20px;
+    /* padding: 20px; */
+}
+.tagline2 {
+    font-size: 8.8em;
+}
+#process {
+    margin-bottom: 40px;
+    overflow-x: hidden;
+    height: auto;
+    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    margin-left: -14vw;
+}
+.work-image {
+    height: 31vh;
+    width: 93vw;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+}
+.card {
+    position: relative;
+    width: 92vw;
+    height: 593px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    -webkit-perspective: 2000px;
+    -moz-perspective: 2000px;
+    perspective: 2000px;
+    cursor: pointer;
+    border-radius: 0.8em;
+    margin-left: -18vw;
+}
+.work-link {
+    font-size: 3em;
+    color: red;
+}
+.work-discription {
+    font-size: 2.5em;
+    padding: 5px;
+}
+#process .container-fluid {
+    width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+ .card {
+    position: relative;
+    width: 92vw;
+    height: 72vh;
+    margin-right: auto;
+    margin-bottom: 50px;
+    -webkit-perspective: 2000px;
+    -moz-perspective: 2000px;
+    perspective: 2000px;
+    cursor: pointer;
+    border-radius: 0.8em;
+    margin-left: -18vw;
+}
+.work-discription {
+    font-size: 2.2em;
     padding: 5px;
 }
 .work-link {
-    font-size: 2em;
+    font-size: 2.5em;
     color: red;
+}
+}
+
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+
+
+  #process {
+    margin-bottom: 40px;
+    overflow-x: hidden;
+    height: auto;
+    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    margin-left: -20vw;
+}
+#process .container-fluid {
+    width: 105%;
+}
+.work-image {
+    height: 31vh;
+    width: 93vw;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
 }
 }
